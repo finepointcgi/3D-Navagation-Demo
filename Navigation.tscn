@@ -1,0 +1,97 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Navigation.gd" type="Script" id=1]
+
+[sub_resource type="NavigationMesh" id=1]
+vertices = PoolVector3Array( 2.43263, 0.171068, -1.46737, 8.13263, 0.171068, -1.46737, 8.13263, 0.171068, -8.06737, 0.03263, 0.171068, -8.06737, -1.16737, 0.171068, -1.46737, 0.03263, 0.171068, -8.06737, -8.06737, 0.171068, -8.06737, -8.06737, 0.171068, -1.46737, 1.23263, 0.171068, -1.46737, 2.43263, 0.171068, -1.46737, 0.03263, 0.171068, -8.06737, 0.03263, 0.171068, -1.46737, 1.23263, 0.171068, -1.46737, 0.03263, 0.171068, -8.06737, -1.16737, 0.171068, -1.46737, 0.03263, 0.171068, -1.46737, 0.03263, 0.171068, -8.06737, -0.26737, 0.171068, 0.93263, -0.56737, 0.171068, 2.13263, 0.93263, 0.171068, 2.13263, 0.93263, 0.171068, 0.93263, 2.73263, 0.171068, 0.03263, 1.23263, 0.171068, 0.33263, 2.43263, 0.171068, 0.632629, 8.13263, 0.171068, 0.632629, 1.23263, 0.171068, -1.46737, 0.03263, 0.171068, -1.46737, 0.33263, 0.171068, 0.03263, 1.23263, 0.171068, 0.33263, 8.13263, 0.171068, -1.46737, 2.43263, 0.171068, -1.46737, 2.73263, 0.171068, 0.03263, 8.13263, 0.171068, 0.632629, 1.23263, 0.171068, 0.33263, 0.33263, 0.171068, 0.03263, -1.16737, 0.171068, 0.33263, -1.76737, 0.171068, 0.632629, -0.26737, 0.171068, 0.93263, 0.93263, 0.171068, 0.93263, 2.43263, 0.171068, 0.632629, 1.23263, 0.171068, 0.33263, -1.16737, 0.171068, 0.33263, -1.76737, 0.171068, 0.632629, -1.16737, 0.171068, 0.33263, -1.16737, 0.171068, -1.46737, -8.06737, 0.171068, -1.46737, -8.06737, 0.171068, 0.632629, 1.23263, 0.171068, 3.03263, 0.93263, 0.171068, 2.13263, -0.56737, 0.171068, 2.13263, 1.23263, 0.171068, 3.03263, -0.56737, 0.171068, 2.13263, -2.06737, 0.171068, 1.83263, -8.06737, 0.171068, 3.03263, 1.23263, 0.171068, 3.03263, -2.06737, 0.171068, 1.83263, -8.06737, 0.171068, 0.632629, -2.06737, 0.171068, 1.83263, -1.76737, 0.171068, 0.632629, -8.06737, 0.171068, 0.632629, 8.13263, 0.171068, 0.632629, 2.43263, 0.171068, 0.632629, 2.43263, 0.831068, 1.23263, 3.85763, 0.171068, 1.08263, 2.43263, 0.831068, 1.23263, -6.26737, 2.81107, 1.23263, -6.26737, 2.81107, 2.43263, 2.43263, 0.831068, 2.43263, -1.04737, 2.81107, 1.23263, -1.04737, 2.81107, 2.43263, -8.06737, 0.171068, 3.03263, -8.06737, 0.171068, 8.13263, 0.03263, 0.171068, 8.13263, 1.23263, 0.171068, 3.03263, 8.13263, 0.171068, 0.632629, 2.43263, 0.831068, 1.23263, 2.43263, 0.831068, 2.43263, 3.85763, 0.171068, 1.98263, 3.85763, 0.171068, 1.08263, 8.13263, 0.171068, 0.632629, 2.43263, 0.831068, 2.43263, 2.43263, 0.171068, 3.03263, 3.85763, 0.171068, 1.98263, 8.13263, 0.171068, 8.13263, 8.13263, 0.171068, 0.632629, 2.43263, 0.171068, 3.03263, 0.03263, 0.171068, 8.13263, 0.03263, 0.171068, 8.13263, 2.43263, 0.171068, 3.03263, 1.23263, 0.171068, 3.03263 )
+polygons = [ PoolIntArray( 1, 0, 2 ), PoolIntArray( 2, 0, 3 ), PoolIntArray( 7, 6, 4 ), PoolIntArray( 4, 6, 5 ), PoolIntArray( 8, 10, 9 ), PoolIntArray( 13, 12, 11 ), PoolIntArray( 16, 15, 14 ), PoolIntArray( 20, 19, 17 ), PoolIntArray( 17, 19, 18 ), PoolIntArray( 22, 21, 23 ), PoolIntArray( 23, 21, 24 ), PoolIntArray( 26, 25, 27 ), PoolIntArray( 27, 25, 28 ), PoolIntArray( 30, 29, 31 ), PoolIntArray( 31, 29, 32 ), PoolIntArray( 35, 34, 33 ), PoolIntArray( 36, 41, 37 ), PoolIntArray( 37, 41, 38 ), PoolIntArray( 38, 41, 40 ), PoolIntArray( 38, 40, 39 ), PoolIntArray( 43, 42, 44 ), PoolIntArray( 44, 42, 46 ), PoolIntArray( 44, 46, 45 ), PoolIntArray( 49, 48, 47 ), PoolIntArray( 50, 52, 51 ), PoolIntArray( 56, 55, 53 ), PoolIntArray( 53, 55, 54 ), PoolIntArray( 59, 58, 57 ), PoolIntArray( 62, 61, 63 ), PoolIntArray( 63, 61, 60 ), PoolIntArray( 67, 69, 64 ), PoolIntArray( 64, 69, 68 ), PoolIntArray( 68, 69, 66 ), PoolIntArray( 68, 66, 65 ), PoolIntArray( 71, 70, 72 ), PoolIntArray( 72, 70, 73 ), PoolIntArray( 76, 75, 77 ), PoolIntArray( 77, 75, 78 ), PoolIntArray( 77, 78, 74 ), PoolIntArray( 80, 82, 81 ), PoolIntArray( 81, 82, 79 ), PoolIntArray( 84, 83, 85 ), PoolIntArray( 85, 83, 86 ), PoolIntArray( 87, 89, 88 ) ]
+sample_partition_type/sample_partition_type = 1
+cell/height = 0.11
+agent/height = 0.65
+agent/radius = 0.23
+agent/max_climb = 0.64
+
+[sub_resource type="PlaneMesh" id=2]
+
+[sub_resource type="CubeMesh" id=3]
+
+[sub_resource type="CapsuleMesh" id=4]
+
+[sub_resource type="CapsuleMesh" id=5]
+
+[node name="Navigation" type="Navigation"]
+script = ExtResource( 1 )
+
+[node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="."]
+navmesh = SubResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="NavigationMeshInstance"]
+transform = Transform( 8.36737, 0, 0, 0, 4.03668, 0, 0, 0, 8.36737, 0, 0, 0 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="MeshInstance2" type="MeshInstance" parent="NavigationMeshInstance"]
+transform = Transform( 0.41939, 0, 0, 0, 0.928932, 0, 0, 0, 0.41939, -0.57699, 2.56987e-08, -0.640653 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance5" type="MeshInstance" parent="NavigationMeshInstance"]
+transform = Transform( 2.26028, 0.0436356, 0, -1.3378, 0.0737245, 0, 0, 0, 0.88026, 0.935228, 1.25319, 1.8386 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance6" type="MeshInstance" parent="NavigationMeshInstance"]
+transform = Transform( 2.62636, 0.000927323, 0, -0.0284303, 0.0856651, 0, 0, 0, 0.88026, -3.86193, 2.57833, 1.8386 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance3" type="MeshInstance" parent="NavigationMeshInstance"]
+transform = Transform( 0.41939, 0, 0, 0, 0.928932, 0, 0, 0, 0.41939, -1.26835, -8.53034e-08, 1.39132 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance4" type="MeshInstance" parent="NavigationMeshInstance"]
+transform = Transform( 0.41939, 0, 0, 0, 0.928932, 0, 0, 0, 0.41939, 1.94442, 2.56987e-08, -0.629082 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="Player" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.03693, 4.76837e-07, 0.175148 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Player"]
+transform = Transform( 0.423517, 0, 0, 0, -1.85125e-08, 0.461772, 0, -0.423517, -2.01847e-08, 0, 0.650022, 0 )
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -0.707107, -0.353553, 0.612372, 0, 0.866025, 0.5, -0.707107, 0.353553, -0.612372, 4.14204, 4.6951, -3.23402 )
+current = true
+fov = 90.0
+
+[node name="Goal" type="MeshInstance" parent="." groups=[
+"Goals",
+]]
+transform = Transform( -0.301825, 2.63864e-08, 0, -2.63864e-08, -0.301825, 0, 0, 0, 0.257038, -6.02761, 2.68807, 1.86466 )
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="Goal2" type="MeshInstance" parent="." groups=[
+"Goals",
+]]
+transform = Transform( -0.301825, 2.63864e-08, 0, -2.63864e-08, -0.301825, 0, 0, 0, 0.257038, -6.17482, 0.122697, -0.0197277 )
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="Goal3" type="MeshInstance" parent="." groups=[
+"Goals",
+]]
+transform = Transform( -0.301825, 2.63864e-08, 0, -2.63864e-08, -0.301825, 0, 0, 0, 0.257038, 4.85784, 0.0770531, 7.00111 )
+mesh = SubResource( 5 )
+material/0 = null
+
+[node name="Goal4" type="MeshInstance" parent="." groups=[
+"Goals",
+]]
+transform = Transform( -0.301825, 2.63864e-08, 0, -2.63864e-08, -0.301825, 0, 0, 0, 0.257038, 0.793031, 0.0770526, 0.597873 )
+mesh = SubResource( 5 )
+material/0 = null
